@@ -17,6 +17,15 @@
     border-radius: 42px;
     font-size: 1rem;
 }
+.title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+.details{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 /* Header section start */
@@ -181,7 +190,44 @@
     top: 40%;
     left: 18.5%;
 }
-
-
 /* banner section start */
 /* Header section end */
+
+/* main section starts */
+/* habit section starts */
+main{
+    width: 100%;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.habits{
+    width: 75%;
+    margin: 0px auto;
+    text-align: center;
+}
+.habit-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.habit-card img{
+    /* width: 100%; */
+    border-radius: 50%;
+    border: 5px solid rgba(62, 60, 60, 0.918);
+    margin-bottom: 26px;
+}
+.habit-card h3{
+    font-size: 1.125rem;
+    color: white;
+}
+.habit-card p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.habit-card{
+    margin-top: 50px;
+}
+
+/* habit section ends */
+/* main section ends */
