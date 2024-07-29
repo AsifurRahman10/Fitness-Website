@@ -1,0 +1,15 @@
+/* responsive for mobile device start*/
+@media screen and (max-width: 576px) {
+    .nav-items{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .nav-bar{
+        max-width: 85%;
+    }
+}
+
+/* responsive for mobile device start */
+
