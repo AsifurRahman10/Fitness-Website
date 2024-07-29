@@ -48,6 +48,27 @@
         top: 10%;
         left: 55%;
     }
+    .habit-card-container{
+        flex-direction: column;
+    }
+    main{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .run-banner{
+        flex-direction: column;
+        margin: 50px auto;
+        gap: 30px;
+    }
+    .run-banner-details{
+        width: 100%;
+    }
+    .run-banner-image{
+        width: 100%;
+    }
 }
 
 /* responsive for mobile device start */
