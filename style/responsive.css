@@ -1,13 +1,52 @@
 /* responsive for mobile device start*/
 @media screen and (max-width: 576px) {
+    .nav-bar, .banner{
+        width: 90%;
+    }
+    .nav-bar{
+        margin-bottom: 40px;
+    }
     .nav-items{
         display: none;
     }
     .hamburger{
         display: block;
     }
-    .nav-bar{
-        max-width: 85%;
+    .banner{
+        flex-direction: column;
+    }
+    .banner-info h3{
+        font-size: 2.26rem;
+    }
+    .btn-primary{
+        padding: 16px 21px;
+    }
+    .btn-unique{
+        padding: 16px 21px;
+    }
+    .banner-image{
+        margin-right: 0px;
+    }
+    .banner-card{
+        width: 165px;
+        height: 90px;
+    }
+    .text h4{
+        font-size: 1.2rem;  
+    }
+    #unique-heading{
+        font-size: 1.8rem;
+    }
+    #card-1{
+        top: 45%;
+        left: 1%;
+    }
+    .text p{
+        font-size: 0.8rem;
+    }
+    #card-2{
+        top: 10%;
+        left: 55%;
     }
 }
 
