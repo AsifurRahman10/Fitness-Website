@@ -1,6 +1,6 @@
 /* responsive for mobile device start*/
 @media screen and (max-width: 576px) {
-    .nav-bar, .banner{
+    .nav-bar, .banner,.calculator-header,.run-banner{
         width: 90%;
     }
     .nav-bar{
@@ -69,7 +69,23 @@
     .run-banner-image{
         width: 100%;
     }
+    .calculator-header{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .calculator-function{
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+    .bmi-chart h2{
+        margin-bottom: 30px;
+    }
+    .run-banner-details h1, p {
+        margin-bottom: 0px;
+    }
+    .calculate p{
+        margin-bottom: 20px;
+    }
 }
-
-/* responsive for mobile device start */
-
+/* responsive for mobile device end */

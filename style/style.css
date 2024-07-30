@@ -254,5 +254,83 @@ main{
     border-radius: 18px;
 }
 
+/* calculator section starts */
+.head{
+    font-size: 1.2rem;
+    font-weight: 400rem;
+}
+.other{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.calculator{
+    width: 100%;
+}
+.calculator-header{
+    margin: 0 auto;
+    width: 30%;
+    margin-bottom: 80px;
+}
+.table-heading, .new{
+    color: white;
+}
+table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+}
+
+
+.calculator-function{
+    display: flex;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 1);
+    justify-content: space-around;
+    align-content: center;
+    padding: 50px 0px;
+}
+
+.bmi-chart h2, .sub-head{
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+}
+.calculate h2{
+    margin-bottom: 15px;
+}
+
+table{
+    width: 100%;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+input, select{
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+}
+.calculate button{
+    width: 70%;
+    margin-top: 20px;
+}
+.factor{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.factor select{
+    width: 100%;
+}
+/* calculator section ends */
+
 
 /* main section ends */
