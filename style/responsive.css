@@ -1,6 +1,6 @@
 /* responsive for mobile device start*/
 @media screen and (max-width: 576px) {
-    .nav-bar, .banner,.calculator-header,.run-banner,.team{
+    .nav-bar, .banner,.calculator-header,.run-banner,.team, .service{
         width: 90%;
     }
     .nav-bar{
@@ -90,6 +90,7 @@
     .team{
         padding: 10px 0;
         margin: 0 auto;
+        padding-bottom: 50px;
     }
     .team-img-container{
         grid-template-columns: repeat(1, 1fr);
@@ -100,6 +101,61 @@
     }
     .team-width{
         width: 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .get-started{
+        flex-direction: column;
+    }
+    .footer-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-title{
+        width: 100%;
+    }
+    .footer-title p{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-links{
+        width: 100%;
+    }
+    .get-started{
+        gap: 30px;
+    }
+    hr{
+        width: 90%;
+    }
+    .footer-copy{
+        font-size: 1.2rem;
+    }
+    .footer{
+        padding-top: 30px;
+    }
+    .run-banner-details button {
+    width: 100%;
+    }
+    .service-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        width: 100%;
+    }
+    .card img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 16px;
+        margin-bottom: 20px;
+    }
+    .card:nth-child(3) button{
+        margin-top: 10px;
+    }
+    .card button{
+        width: 50%;
     }
 }
 /* responsive for mobile device end */
