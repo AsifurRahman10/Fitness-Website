@@ -1,6 +1,6 @@
 /* responsive for mobile device start*/
 @media screen and (max-width: 576px) {
-    .nav-bar, .banner,.calculator-header,.run-banner{
+    .nav-bar, .banner,.calculator-header,.run-banner,.team{
         width: 90%;
     }
     .nav-bar{
@@ -86,6 +86,20 @@
     }
     .calculate p{
         margin-bottom: 20px;
+    }
+    .team{
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .team-image img{
+        object-fit: cover;
+    }
+    .team-width{
+        width: 100%;
     }
 }
 /* responsive for mobile device end */
