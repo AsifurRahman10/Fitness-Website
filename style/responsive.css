@@ -88,8 +88,8 @@
         width: 85%;
         margin: 0 auto;
     }
-    .form .btn-primary{
-        width: 200px;
+    .calculate button {
+        width: 100%;
     }
     .calculate .details{
         margin-bottom: 30px;
@@ -203,7 +203,16 @@
         padding-bottom: 30px;
     }
     .run-banner-details button {
-    width: 100%;
+        width: 100%;
+    }
+    .triangle {
+        display: block;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 20px solid white;
+        position: absolute;
+        top: 40%;
+        left: 18.5%;
     }
     .service-container{
         flex-direction: column;
