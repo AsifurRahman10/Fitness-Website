@@ -1,16 +1,19 @@
 /* responsive for mobile device start*/
 @media screen and (max-width: 576px) {
     .nav-bar, .banner,.calculator-header,.run-banner,.team, .service{
-        width: 90%;
+        width: 85%;
     }
     .nav-bar{
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     .nav-items{
         display: none;
     }
     .hamburger{
         display: block;
+    }
+    .banner-info p {
+        width: 80%;
     }
     .banner{
         flex-direction: column;
@@ -20,6 +23,9 @@
     }
     .btn-primary{
         padding: 16px 21px;
+    }
+    .title{
+        padding-top: 5px;
     }
     .btn-unique{
         padding: 16px 21px;
@@ -75,8 +81,25 @@
     }
     .calculator-function{
         flex-direction: column;
-        padding: 40px 20px;
         gap: 40px;
+        padding: 50px 0px;
+    }
+    .calculate{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .form .btn-primary{
+        width: 200px;
+    }
+    .calculate .details{
+        margin-bottom: 30px;
+    }
+    .calculate .sub-head{
+        margin-bottom: 30px;
+    }
+    .bmi-chart{
+        width: 85%;
+        margin: 0 auto;
     }
     .bmi-chart h2{
         margin-bottom: 30px;
@@ -84,14 +107,58 @@
     .run-banner-details h1, p {
         margin-bottom: 0px;
     }
+    .run-banner-details{
+        padding-left: 0px;
+    }
+    .run-banner-details .title{
+        margin-bottom: 10px;
+    }
+    .run-banner-details button{
+        margin-top: 0px;
+    }
+    .run-banner-image img {
+        object-fit: cover;
+    }
+    .calculator-header .title{
+        padding-top: 0px;
+    }
     .calculate p{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+    }
+    .team-image h4 {
+        top: 85%;
+        left: 8%;
+    }
+    .team-image span {
+        left: 8%;
+        top: 92%;
     }
     .team{
         padding: 10px 0;
         margin: 0 auto;
         padding-bottom: 50px;
     }
+    .first, .fourth{
+        display: none;
+    }
+    .footer-copy{
+        width: 85%;
+        margin: 0 auto;
+        text-align: start;
+    }
+    .second{
+        order: 0;
+    }
+    .fifth{
+        order: 1;
+    }
+    .third{
+        order: 2;
+    }
+    .sixth{
+        order: 3;
+    }
+    
     .team-img-container{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
@@ -109,7 +176,7 @@
         flex-direction: column;
     }
     .footer-container{
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
     }
     .footer-title{
@@ -133,6 +200,7 @@
     }
     .footer{
         padding-top: 30px;
+        padding-bottom: 30px;
     }
     .run-banner-details button {
     width: 100%;
