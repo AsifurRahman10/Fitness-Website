@@ -325,7 +325,7 @@ input{
     border-radius: 8px;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.9);
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 600;
 }
@@ -336,9 +336,8 @@ select{
     border-radius: 8px;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.378);
+    color: rgba(255, 255, 255, 0.402);
     font-size: 1rem;
-    font-weight: 600;
     border-right: 16px solid transparent;
 }
 option{
